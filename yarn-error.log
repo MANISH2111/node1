@@ -1,0 +1,47 @@
+Arguments: 
+  /opt/homebrew/Cellar/node/20.2.0/bin/node /usr/local/bin/yarn add -D typescript tsc-watch eslint prettier eslint-config-prettier eslint-plugin-prettier @typescript/eslint-parser @typescript/eslint-plugin @types/node @types/express
+
+PATH: 
+  /opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/Users/manish/Library/Android/sdk/emulator:/Users/manish/Library/Android/sdk/platform-tools:/Users/manish/Library/Android/sdk/tools:/Users/manish/Library/Android/sdk/tools/bin:/Users/manish/.rvm/bin:/Users/manish/Library/Android/sdk/emulator:/Users/manish/Library/Android/sdk/platform-tools:/Users/manish/Library/Android/sdk/emulator:/Users/manish/Library/Android/sdk/tools:/Users/manish/Library/Android/sdk/tools/bin:/Users/manish/Library/Android/sdk/platform-tools
+
+Yarn version: 
+  1.22.11
+
+Node version: 
+  20.2.0
+
+Platform: 
+  darwin arm64
+
+Trace: 
+  Error: https://registry.npmjs.org/@typescript%2feslint-parser: Not found
+      at params.callback [as _callback] (/usr/local/lib/node_modules/yarn/lib/cli.js:66992:18)
+      at self.callback (/usr/local/lib/node_modules/yarn/lib/cli.js:140763:22)
+      at Request.emit (node:events:511:28)
+      at Request.<anonymous> (/usr/local/lib/node_modules/yarn/lib/cli.js:141735:10)
+      at Request.emit (node:events:511:28)
+      at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/yarn/lib/cli.js:141657:12)
+      at Object.onceWrapper (node:events:625:28)
+      at IncomingMessage.emit (node:events:523:35)
+      at endReadableNT (node:internal/streams/readable:1367:12)
+      at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+
+npm manifest: 
+  {
+    "name": "node1",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
